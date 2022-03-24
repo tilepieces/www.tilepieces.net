@@ -1,0 +1,28 @@
+a[aria-controls="navigation-index"] { width: 100%; display: block; text-align: center; }
+@media screen and (min-width: 1023px) {
+  a[aria-controls="navigation-index"] { display: none; }
+  div.version { margin-inline-start: 1.3em; }
+}
+nav ol { margin: 0px; padding: 0px; list-style: none; }
+nav li { display: flex; font-size: 18px; }
+span.ol-counter { margin-right: 8px; color: rgb(153, 135, 213); }
+.documentation .tilepieces-documentation-nav { background-color: rgb(255, 255, 255); padding: 1em 0px !important; }
+#navigation-index { position: sticky; top: 10px; padding: 0em 1em 0px; }
+nav #navigation-index > ol > li { margin: 1em auto; text-transform: uppercase; font-size: 18px; }
+nav a { text-decoration: none; color: rgb(139, 139, 139); }
+nav summary::marker { color: rgb(204, 204, 204); }
+nav ol li details ol li { font-size: 18px; text-transform: none; }
+li.select > details > summary a, li.select > a { color: rgb(15, 15, 15); }
+li.select > span.ol-counter { color: rgb(15, 15, 15); }
+summary::after { content: ""; cursor: pointer; height: 8px; width: 8px; background-color: transparent; border-top: 2px solid rgb(153, 152, 152); border-right: 2px solid rgb(153, 152, 152); display: inline-block; transform: rotate(45deg); margin-left: 15px; position: absolute; margin-top: 9px; }
+summary { list-style: none; position: relative; text-align: start; }
+nav details[open] > summary::after { transform: rotate(135deg); margin-top: 5px; margin-left: 20px; }
+@media screen and (max-width: 1023px) {
+  #navigation-index { position: relative; border-top: 1px solid rgb(205, 205, 205); display: none; }
+  #navigation-index.open { display: block; }
+  nav.tilepieces-documentation-nav { text-align: center; }
+  nav.tilepieces-documentation-nav a.logo { margin-inline-start: 0px !important; }
+}
+nav.tilepieces-documentation-nav a.logo { margin-inline-start: 1.3em; }
+nav.tilepieces-documentation-nav a.logo svg { width: 64px; }
+div.version { font-size: 0.8em; }

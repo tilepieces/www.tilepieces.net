@@ -1,0 +1,15 @@
+pre { margin: 1.7em 0px; }
+pre code { display: block; padding: 1em; }
+code.hljs { padding: 3px 5px; }
+.hljs { color: rgb(56, 58, 66); background: rgb(250, 250, 250); }
+.hljs-comment, .hljs-quote { color: rgb(160, 161, 167); font-style: italic; }
+.hljs-doctag, .hljs-formula, .hljs-keyword { color: rgb(166, 38, 164); }
+.hljs-deletion, .hljs-name, .hljs-section, .hljs-selector-tag, .hljs-subst { color: rgb(228, 86, 73); }
+.hljs-literal { color: rgb(1, 132, 187); }
+.hljs-addition, .hljs-attribute, .hljs-meta .hljs-string, .hljs-regexp, .hljs-string { color: rgb(80, 161, 79); }
+.hljs-attr, .hljs-number, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-pseudo, .hljs-template-variable, .hljs-type, .hljs-variable { color: rgb(152, 104, 1); }
+.hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hljs-symbol, .hljs-title { color: rgb(64, 120, 242); }
+.hljs-built_in, .hljs-class .hljs-title, .hljs-title.class_ { color: rgb(193, 132, 1); }
+.hljs-emphasis { font-style: italic; }
+.hljs-strong { font-weight: 700; }
+.hljs-link { text-decoration: underline; }

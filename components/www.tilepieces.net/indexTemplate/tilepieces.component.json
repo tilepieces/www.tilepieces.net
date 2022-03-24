@@ -1,0 +1,42 @@
+{
+  "name": "www.tilepieces.net/indexTemplate",
+  "description": "",
+  "version": "",
+  "author": "",
+  "website": "",
+  "repository": "",
+  "html": "",
+  "addDependenciesToBundles": true,
+  "bundle": {
+    "stylesheet": {
+      "href": "indexTemplate.css"
+    },
+    "stylesheetHeader": "",
+    "stylesheetFooter": "",
+    "scriptHeader": "",
+    "scriptFooter": "",
+    "script": {
+      "src": "index.js"
+    }
+  },
+  "sources": {
+    "stylesheets": [
+      "placeholder"
+    ],
+    "scripts": [
+      "placeholder"
+    ]
+  },
+  "dependencies": [
+    "www.tilepieces.net/header",
+    "www.tilepieces.net/footer",
+    "www.tilepieces.net/stylesheet"
+  ],
+  "mergeMiscellaneous": false,
+  "miscellaneous": [],
+  "selector": "",
+  "interface": "",
+  "fixedHTML": false,
+  "parseHTML": "",
+  "components": {}
+}

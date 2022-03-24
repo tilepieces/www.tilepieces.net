@@ -1,0 +1,34 @@
+{
+  "name": "www.tilepieces.net/header",
+  "description": "",
+  "version": "",
+  "author": "",
+  "website": "",
+  "repository": "",
+  "html": "header.html",
+  "addDependenciesToBundles": false,
+  "bundle": {
+    "stylesheet": {
+      "href": "header.css"
+    },
+    "stylesheetHeader": "",
+    "stylesheetFooter": "",
+    "scriptHeader": "",
+    "scriptFooter": "",
+    "script": {
+      "src": "navigation.js"
+    }
+  },
+  "sources": {
+    "stylesheets": [],
+    "scripts": []
+  },
+  "dependencies": [],
+  "mergeMiscellaneous": false,
+  "miscellaneous": [],
+  "selector": "",
+  "interface": "",
+  "fixedHTML": true,
+  "parseHTML": "",
+  "components": {}
+}

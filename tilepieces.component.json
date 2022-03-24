@@ -1,0 +1,45 @@
+{
+  "name": "www.tilepieces.net",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "website": "",
+  "repository": "",
+  "html": "",
+  "bundle": {
+    "stylesheet": {},
+    "script": {}
+  },
+  "sources": {
+    "stylesheets": [],
+    "scripts": []
+  },
+  "dependencies": [],
+  "mergeMiscellaneous": false,
+  "miscellaneous": [],
+  "selector": "",
+  "interface": "",
+  "parseHTML": "",
+  "components": {
+    "www.tilepieces.net/header": {
+      "path": "/components/www.tilepieces.net/header",
+      "name": "www.tilepieces.net/header"
+    },
+    "www.tilepieces.net/stylesheet": {
+      "path": "/components/www.tilepieces.net/stylesheet",
+      "name": "www.tilepieces.net/stylesheet"
+    },
+    "www.tilepieces.net/footer": {
+      "path": "/components/www.tilepieces.net/footer",
+      "name": "www.tilepieces.net/footer"
+    },
+    "www.tilepieces.net/template": {
+      "path": "/components/www.tilepieces.net/template",
+      "name": "www.tilepieces.net/template"
+    },
+    "www.tilepieces.net/indexTemplate": {
+      "path": "/components/www.tilepieces.net/indexTemplate",
+      "name": "www.tilepieces.net/indexTemplate"
+    }
+  }
+}

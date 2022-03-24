@@ -1,0 +1,61 @@
+{
+  "name": "documentation",
+  "description": "",
+  "version": "1.0.0",
+  "author": "",
+  "website": "",
+  "repository": "",
+  "html": "",
+  "addDependenciesToBundles": false,
+  "bundle": {
+    "stylesheet": {
+      "href": "documentation-css.css"
+    },
+    "stylesheetHeader": "",
+    "stylesheetFooter": "",
+    "scriptHeader": "",
+    "scriptFooter": "",
+    "script": {}
+  },
+  "sources": {
+    "stylesheets": [],
+    "scripts": []
+  },
+  "dependencies": [
+    "documentation/documentation-nav",
+    "documentation/hljs"
+  ],
+  "mergeMiscellaneous": true,
+  "miscellaneous": [
+    "documentation",
+    "components/documentation/bundle"
+  ],
+  "selector": "",
+  "interface": "",
+  "fixedHTML": false,
+  "parseHTML": "",
+  "components": {
+    "documentation/hljs": {
+      "path": "/components/documentation/hljs",
+      "name": "documentation/hljs"
+    },
+    "documentation/architecture-design": {
+      "path": "/components/documentation/architecture-design",
+      "name": "documentation/architecture-design"
+    },
+    "documentation/bundle": {
+      "path": "/components/documentation/bundle",
+      "name": "documentation/bundle"
+    },
+    "documentation/documentation-nav": {
+      "path": "/components/documentation-nav",
+      "name": "documentation/documentation-nav"
+    },
+    "documentation/template": {
+      "path": "/components/template",
+      "name": "documentation/template"
+    }
+  },
+  "noSet": true,
+  "checked": true
+}

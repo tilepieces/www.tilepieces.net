@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>documentation nav interface</title>
+</head>
+<body>
+<button id="update-all">Update documentation in project</button>
+<button id="fix-ul">Fixing nav numeration</button>
+<script src="set.js"></script>
+<script>
+  const updateAll = document.getElementById("update-all");
+  const fixUl = document.getElementById("fix-ul");
+  const opener = window.opener || window.parent;
+  var app = opener.tilepieces;
+  updateAll.addEventListener("click",async e=>{
+    setFixedHTMLInProject(app.localComponentsFlat["documentation/documentation-nav"])
+  });
+  fixUl.addEventListener("click",async e=>{
+    var lis = app.core.currentDocument.querySelectorAll("span.ol-counter");
+    lis.forEach(v=>{
+      var liParent = v.parentNode;
+      var upperParent = liParent.parentNode.closest("li")?.querySelector("span.ol-counter");
+      var index = [...liParent.parentNode.children].indexOf(liParent) + 1;
+      var textContent = (upperParent ? upperParent.textContent + "." : "")  + index;
+      app.core.htmlMatch.textContent(v,textContent)
+    });
+  })
+</script>
+</body>
+</html>

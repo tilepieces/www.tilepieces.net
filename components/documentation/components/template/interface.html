@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documentation template interface</title>
+</head>
+<body>
+<button onclick="go()">Set template in all .html files ( except for under "components" path ) </button>
+<script>
+  const windowOpener = window.opener || window.parent;
+  const opener = windowOpener.opener;
+  const mainDialog = opener.dialog
+  let app = opener.tilepieces;
+  async function go(){
+    // GET TEMPLATE AND SEARCHING FOR ALL HTML FILES IN PROJECT
+// get template document
+    var fixedHTMLPath = "/components/template/template.html";
+    mainDialog.open("fetching resource " + fixedHTMLPath, true);
+    try {
+      var htmlTemplate = await app.storageInterface.read(fixedHTMLPath);
+      var parser = new DOMParser();
+      var template = parser.parseFromString(htmlTemplate, "text/html");
+      var htmlfiles = await app.storageInterface.search("", "documentation/**/*.html");
+      for (var i = 0; i < htmlfiles.searchResult.length; i++) {
+        var htmlfilePath = htmlfiles.searchResult[i];
+        /*
+        if(htmlfilePath.startsWith("components/"))
+          continue;*/
+        mainDialog.open("read resource " + htmlfilePath, true);
+        var htmlfile = await app.storageInterface.read(htmlfilePath);
+        var parser = new DOMParser();
+        var doc = parser.parseFromString(htmlfile, "text/html");
+        // note that 'template' is always the same document
+        template.head.querySelectorAll("style").forEach(v=>v.remove());
+        // title
+        template.title = htmlfilePath == "documentation/index.html" ? "Tilepieces documentation" :
+          "Tilepieces documentation | " + htmlfilePath.split("/").reduce((acc,v,i,a)=>{
+          if(i==a.length-1) {
+            var name = v.split(".")[0];
+            name != "index" && acc.push(name);
+          }
+          else if(i!=0) acc.push(v);
+          return acc;
+        },[]).join(" · ");
+        // description. Note how the second search for itemprop
+        var description = doc.querySelector('meta[name="description"], meta[itemprop="description"]');
+        var descriptionTemplate = template.querySelector('meta[name="description"]');
+        if(description && description.content)
+          descriptionTemplate.content = description.content;
+        // main content
+        var main = template.querySelector("main")
+        main.innerHTML = doc.querySelector("main")?.innerHTML ||
+          doc.querySelector("body>section")?.innerHTML || "";
+        !main.innerHTML.length && console.error(htmlfilePath + " doesn't match");
+        template.head.append(...doc.head.querySelectorAll("style"));
+        main?.querySelectorAll("picture").forEach(picture=>{
+          var source = picture.querySelector("img")?.src || picture.querySelector("source")?.srcset;
+          if (source) {
+            var imgName = source.split("/").pop().split(".").filter((v, i, a) => i !== a.length - 1).join(".");
+            picture.innerHTML =
+              `<source srcSet="/documentation/images/AVIF/${imgName}.avif" type="image/avif">
+<source srcSet="/documentation/images/WEBP/${imgName}.webp" type="image/webp">
+<img src="/documentation/images/JPG/${imgName}.jpg">`
+          }
+          else{
+            picture.remove();
+          }
+        })
+        main?.querySelectorAll("img").forEach(img=>{
+          if(img.parentNode.tagName != "PICTURE"){
+            var imgName = img.src.split("/").pop().split(".").filter((v,i,a)=>i!==a.length-1).join(".")
+            var newPicture = document.createElement("picture");
+            newPicture.innerHTML =
+            `<source srcSet="/documentation/images/AVIF/${imgName}.avif" type="image/avif">
+<source srcSet="/documentation/images/WEBP/${imgName}.webp" type="image/webp">
+<img src="/documentation/images/JPG/${imgName}.jpg">`
+            img.replaceWith(newPicture);
+          }
+        })
+        template.body.removeAttribute("data-tilepieces-component");
+        // then save
+        var s = app.core.createDocumentText(template);
+        mainDialog.open("update resource " + htmlfilePath, true);
+        await app.storageInterface.update(htmlfilePath, new Blob([s]));
+      }
+    }
+    catch(e){
+      console.error(e);
+      opener.dialog.close();
+      alertDialog("error in set fixed html",true);
+      return;
+    }
+    opener.dialog.open("update done");
+  }
+</script>
+</body>
+</html>

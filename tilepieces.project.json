@@ -1,0 +1,22 @@
+{
+  "name": "www.tilepieces.net",
+  "components": {
+    "ckeditor4-tilepieces-component": {
+      "name": "ckeditor4-tilepieces-component",
+      "path": "/components/ckeditor4-tilepieces-component"
+    },
+    "documentation": {
+      "name": "documentation",
+      "path": "/components/documentation"
+    }
+  },
+  "lastFileOpened": "/use-components.html",
+  "sandboxFrame": false,
+  "openedPanels": [
+    "package-manager",
+    "project-explorer",
+    "html-inspector",
+    "css-viewer",
+    "component-panel"
+  ]
+}

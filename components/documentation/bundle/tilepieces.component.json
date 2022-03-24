@@ -1,0 +1,40 @@
+{
+  "name": "documentation/bundle",
+  "description": "",
+  "version": "",
+  "author": "",
+  "website": "",
+  "repository": "",
+  "html": "",
+  "addDependenciesToBundles": true,
+  "bundle": {
+    "stylesheet": {
+      "href": "documentation.css"
+    },
+    "stylesheetHeader": "",
+    "stylesheetFooter": "",
+    "scriptHeader": "",
+    "scriptFooter": "",
+    "script": {
+      "src": "documentation.js"
+    }
+  },
+  "sources": {
+    "stylesheets": [
+      "placeholder"
+    ],
+    "scripts": [
+      "placeholder"
+    ]
+  },
+  "dependencies": [
+    "documentation"
+  ],
+  "mergeMiscellaneous": false,
+  "miscellaneous": [],
+  "selector": "",
+  "interface": "",
+  "fixedHTML": false,
+  "parseHTML": "",
+  "components": {}
+}
