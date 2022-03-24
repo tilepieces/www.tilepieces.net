@@ -9,7 +9,7 @@ footer div:nth-child(4) { grid-area: list3 / list3 / list3 / list3; }
 footer img { width: 48px; }
 footer div:nth-child(1) a { display: inline-block; color: rgb(108, 117, 125); text-decoration: none; }
 footer ul { list-style: none; padding: 0px; }
-footer div:nth-child(2) a, footer div:nth-child(3) a { color: rgb(73, 80, 87); text-decoration: none; }
+footer div:nth-child(2) a, footer div:nth-child(3) a { color: rgb(73, 80, 87); text-decoration: none; display: block; padding: 0.7em 0px; }
 footer div:nth-child(1) a img { vertical-align: middle; }
 footer div:nth-child(1) a:hover, footer div:nth-child(2) a:hover, footer div:nth-child(3) a:hover { color: blue; }
 footer div:nth-child(1) a.social-link { margin: 0px 2%; }
