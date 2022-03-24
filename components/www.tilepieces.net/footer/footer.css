@@ -1,9 +1,15 @@
-footer { padding: 1em; background-color: rgb(242, 242, 242); box-sizing: border-box; display: grid; grid-template-areas: "footerheader footerheader footerheader footerheader" "list1 list1 list2 list2" ". list3 list3 ."; text-align: center; }
-footer div:nth-child(1) { grid-area: footerheader / footerheader / footerheader / footerheader; }
+footer { padding: 1em; background-color: rgb(242, 242, 242); box-sizing: border-box; display: grid; grid-template-areas: "footerheader footerheader footerheader footerheader" "list1 list1 list2 list2" ". list3 list3 ."; text-align: center; margin-top: auto; font-family: Montserrat, sans-serif; }
+footer div:nth-child(1) { grid-area: footerheader / footerheader / footerheader / footerheader; color: rgb(108, 117, 125); line-height: 1.7; }
 footer div:nth-child(2) { grid-area: list1 / list1 / list1 / list1; }
 footer div:nth-child(3) { grid-area: list2 / list2 / list2 / list2; }
 footer div:nth-child(4) { grid-area: list3 / list3 / list3 / list3; }
 @media screen and (min-width: 1024px) {
-  footer { grid-template-areas: "footerheader list1 list2 list3"; }
+  footer { grid-template-areas: "footerheader list1 list2 list3"; place-items: center; }
 }
-footer img { width: 60px; }
+footer img { width: 48px; }
+footer div:nth-child(1) a { display: inline-block; color: rgb(108, 117, 125); text-decoration: none; }
+footer ul { list-style: none; padding: 0px; }
+footer div:nth-child(2) a, footer div:nth-child(3) a { color: rgb(73, 80, 87); text-decoration: none; }
+footer div:nth-child(1) a img { vertical-align: middle; }
+footer div:nth-child(1) a:hover, footer div:nth-child(2) a:hover, footer div:nth-child(3) a:hover { color: blue; }
+footer div:nth-child(1) a.social-link { margin: 0px 2%; }

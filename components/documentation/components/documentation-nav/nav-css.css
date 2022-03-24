@@ -20,7 +20,7 @@ nav details[open] > summary::after { transform: rotate(135deg); margin-top: 5px;
 @media screen and (max-width: 1023px) {
   #navigation-index { position: relative; border-top: 1px solid rgb(205, 205, 205); display: none; }
   #navigation-index.open { display: block; }
-  nav.tilepieces-documentation-nav { text-align: center; }
+  nav.tilepieces-documentation-nav { text-align: center; min-height: auto !important; }
   nav.tilepieces-documentation-nav a.logo { margin-inline-start: 0px !important; }
 }
 nav.tilepieces-documentation-nav a.logo { margin-inline-start: 1.3em; }

@@ -10,13 +10,12 @@
       "path": "/components/documentation"
     }
   },
-  "lastFileOpened": "/use-components.html",
-  "sandboxFrame": false,
+  "lastFileOpened": "/how-to/create-project-with-html.html",
+  "sandboxFrame": true,
   "openedPanels": [
     "package-manager",
     "project-explorer",
     "html-inspector",
-    "css-viewer",
     "component-panel"
   ]
 }

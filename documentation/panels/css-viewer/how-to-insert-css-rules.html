@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>Tilepieces documentation | panels · css-viewer · how-to-insert-css-rules</title><meta name="description" content="An introduction to tilepieces documentation pages."><meta name="viewport" content="width=device-width,initial-scale=1.0"><link href="/components/documentation/bundle/documentation.css" rel="stylesheet" data-tilepieces-component="documentation/bundle"><style data-tilepieces-current-stylesheet="">figure { position: relative; margin: 0px; }
+<html lang="en"><head><meta charset="UTF-8"><title>Tilepieces documentation | panels · css-viewer · how-to-insert-css-rules</title><meta name="description" content="An introduction to tilepieces documentation pages."><meta name="viewport" content="width=device-width,initial-scale=1.0"><link href="/components/documentation/bundle/documentation.css" rel="stylesheet" data-tilepieces-component="documentation/bundle">
+  <link rel="icon" href="/tp-favi.png">
+  <link rel="apple-touch-icon" href="/tp-favi-180.png"><style data-tilepieces-current-stylesheet="">figure { position: relative; margin: 0px; }
 figure div { position: absolute; border: 3px solid; cursor: pointer; }
 figure div > div { position: absolute; border-color: red; background: white; display: none; padding: 5px; cursor: default; top: 100%; min-width: 100%; }
 figure div:focus > div { display: block; }
@@ -16,8 +18,12 @@ a-change { }
 figure.info-pop #css-viewer-grouping-rules > div { width: 200%; }
 figure.info-pop #css-viewer-media-screen > div { width: 100%; }
 figure.info-pop #css-viewer-media-sceen-add > div { width: 600%; }
-figure.info-pop .info-pop-link > div { }
-figure.info-pop #css-new-media-screen-size > div { }</style></head><body><section class="documentation"><nav data-tilepieces-component="documentation/documentation-nav" class="tilepieces-documentation-nav"><a href="/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+figure.info-pop .info-pop-link > div { width: 80%; }
+figure.info-pop #css-new-media-screen-size > div { }
+figure.info-pop #css-viewer-media-screen-delete > div { width: 800%; }
+figure.info-pop #css-new-media-donw > div { width: 600%; }
+figure.info-pop #css-new-media-add > div { width: 500%; }
+figure.info-pop #css-new-media-delete > div { width: 500%; }</style></head><body><section class="documentation"><nav data-tilepieces-component="documentation/documentation-nav" class="tilepieces-documentation-nav"><a href="/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <g>
                     <polygon style="fill:#000;" points="97.1,2.8 35.3,2.8 35.3,2.8 2.7,2.8 2.7,2.8 2.7,2.8 2.7,17.2 97.1,17.2 	"></polygon>
                     <rect x="47.3" y="74" style="fill:#000;" width="49.9" height="23.3"></rect>
@@ -175,11 +181,7 @@ figure.info-pop #css-new-media-screen-size > div { }</style></head><body><sectio
   
 
   
-</li><li><span class="ol-counter">7</span><a href="/documentation/building-your-own-tilepieces.html">Customizing and building Tilepieces</a></li><li><span class="ol-counter">8</span><details>
-    <summary><a href="/documentation/how-to/index.html">HOW TO</a></summary><ol>
-    <li><span class="ol-counter">8.1</span><a href="/documentation/data-structure/project.html">create a project with an html</a></li>
-  <li><span class="ol-counter">8.2</span><a href="/documentation/data-structure/component.html">edit html text and media</a></li><li><span class="ol-counter">8.3</span><a href="/documentation/data-structure/general-settings.html">edit html structure</a></li><li><span class="ol-counter">8.4</span><a href="/documentation/data-structure/general-settings.html">edit style</a></li><li><span class="ol-counter">8.5</span><a href="/documentation/data-structure/general-settings.html">create and reuse a component</a></li><li><span class="ol-counter">8.6</span><a href="/documentation/how-to/using-tilepieces-with-browser-developer-tools.html">create a component interface</a></li><li><span class="ol-counter">8.7</span><a href="/documentation/how-to/using-tilepieces-with-browser-developer-tools.html">using tilepieces with browser developer tools</a></li></ol>
-  </details></li></ol>
+</li><li><span class="ol-counter">7</span><a href="/documentation/building-your-own-tilepieces.html">Customizing and building Tilepieces</a></li><li><span class="ol-counter">8</span><a href="/documentation/using-tilepieces-with-browser-developer-tools.html">using tilepieces with browser developer tools</a></li></ol>
 </section></nav><main><h2>
   Panels - CSS viewer
 </h2><h1>how to insert css rules</h1><article><div>At the top of the "css viewer" panel there is a dropdown with the "<a href="#">conditional group rules</a>" present in the current stylesheet. Here you can add, select and delete "group rules" (at the moment you can only enter <a href="#">media queries</a>. Both media queries and <a href="#">support rules</a> will appear in the list).<br>Click in the panes in the image below for more information
@@ -194,38 +196,33 @@ figure.info-pop #css-new-media-screen-size > div { }</style></head><body><sectio
 <figure class="info-pop" id="new-media-query-form"><picture><source srcset="/documentation/images/AVIF/css-new-media-query-form.avif" type="image/avif">
 <source srcset="/documentation/images/WEBP/css-new-media-query-form.webp" type="image/webp">
 <img src="/documentation/images/JPG/css-new-media-query-form.jpg"></picture><div id="css-new-media-min-max" tabindex="1" class="info-pop-link" style=""><div style="">
-  <b>Min-max width</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+  <b>Min-max width</b><br>It is a pre-set media query as shown in the image below.</div></div>
 
 <div id="css-new-media-freehand" tabindex="1" class="info-pop-link" style=""><div style="">
-  <b>Freehand</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+  <b>Freehand</b><br>Write your own media query!</div></div>
 
-<div id="css-new-media-media" tabindex="1" class="info-pop-link" style=""><div style="">
-  <b>@media</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+<div id="css-new-media-media" tabindex="1" class="info-pop-link" style=""><div style=""><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#logical_operators">A logical operator</a>.</div></div>
 
-<div id="css-new-media-screen" tabindex="1" class="info-pop-link" style=""><div style="">
-  <b>Screen</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+<div id="css-new-media-screen" tabindex="1" class="info-pop-link" style=""><div style=""><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types">Media types</a></div></div>
 
 <div id="css-new-media-and" tabindex="1" class="info-pop-link" style=""><div style="">
-  <b>And</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#logical_operators">A logical operator</a></div></div>
 
-<div id="css-new-media-max-width" tabindex="1" class="info-pop-link"><div>
-  <b>Max width</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+<div id="css-new-media-max-width" tabindex="1" class="info-pop-link"><div><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_features">Media feature</a></div></div>
 
 
 <div id="css-new-media-screen-size" tabindex="1" class="info-pop-link"><div style="">
-  <b>Screen size</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+  <b>Screen size, if needs</b><br></div></div>
 
-<div id="css-new-media-delete" tabindex="1" class="info-pop-link"><div style="">
-  <b>Delete button</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+<div id="css-new-media-delete" tabindex="1" class="info-pop-link"><div style=""><b>Delete this media statement</b></div></div>
 
-<div id="css-new-media-add" tabindex="1" class="info-pop-link"><div style="">
-  <b>Add button</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+<div id="css-new-media-add" tabindex="1" class="info-pop-link"><div style=""><b>Add a media statement</b></div></div>
 
 <div id="css-new-media-set-css" tabindex="1" class="info-pop-link"><div style="">
-  <b>Set css</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div>
+  <b>Set css</b><br>css Rules will be added in this media query.</div></div>
 
 <div id="css-new-media-donw" tabindex="1" class="info-pop-link"><div style="">
-  <b>Done button</b><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum eros tempor enim dignissim sollicitudin.</div></div></figure>
+  <b>Done button</b><br>When finish. It will be not clickable if the media query does not apply to the current window settings ( for example, if a window is lesser than what expressed by this media query;</div></div></figure>
 
 <div class="video-content">
   <iframe src="https://www.youtube.com/embed/-JYQqfnbBjo?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>

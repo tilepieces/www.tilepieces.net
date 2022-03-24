@@ -28,7 +28,8 @@
   "mergeMiscellaneous": true,
   "miscellaneous": [
     "documentation",
-    "components/documentation/bundle"
+    "components/documentation/bundle",
+    "miscellaneous/link-icon.svg"
   ],
   "selector": "",
   "interface": "",

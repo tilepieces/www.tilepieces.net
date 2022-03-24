@@ -1,4 +1,4 @@
-body { margin: 0px; padding: 0px; max-width: 100%; overflow-x: hidden; }
+body { margin: 0px; padding: 0px; max-width: 100%; overflow-x: hidden; display: flex; flex-direction: column; min-height: 100%; }
 .container-flex { flex-direction: row; padding: 0em; place-content: center space-between; align-items: center; display: flex; }
 section#home-hero { height: auto; margin: 0px; background: linear-gradient(141deg, rgb(125, 3, 226) 0%, 49.5%, rgb(26, 180, 177) 99%); padding: 1em; }
 .video-content { width: 60%; padding: 0px; margin: 0px; }
@@ -51,4 +51,7 @@ footer { padding: 1em; background-color: rgb(242, 242, 242); }
 #second-section { background-image: linear-gradient(137deg, rgb(236, 235, 239) 15%, rgb(185, 197, 234) 43%, rgb(15, 217, 186) 85%, 92.5%, rgb(181, 243, 131) 100%); }
 .content section { padding: 1em; }
 body.inter div.tilepieces-title { width: auto; }
-main.container.internal-page { font-family: "Open Sans", sans-serif; }
+main.container.internal-page { font: 1.2em / 1.5 "Open Sans", sans-serif; }
+html { height: 100%; }
+main.container.internal-page a { font-size: 1em; }
+main.container.internal-page .video-content { width: 100%; margin: 1em 0px; }
