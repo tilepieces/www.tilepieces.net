@@ -1,2 +1,2 @@
 # www.tilepieces.net
-Coming soon!
+This is the tilepieces.net repository.
