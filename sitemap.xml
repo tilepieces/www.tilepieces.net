@@ -2,458 +2,344 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
    <loc>https://tilepieces.net/applications.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/css-live-update.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/appendKeyframe.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/createCurrentStyleSheet.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/deleteCssRule.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/deleteKeyframe.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/insertCssRule.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setCss.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setCssMedia.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setCssProperty.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setCurrentStyleSheet.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setKeyText.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setRuleName.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/css/setSelectorText.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/addClass.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/addColumn.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/after.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/append.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/before.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/createCaption.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/createTFoot.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/createTHead.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteCaption.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteCell.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteColumn.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteRow.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteTFoot.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/deleteTHead.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/innerHTML.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/insertAdjacentElement.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/insertCell.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/insertRow.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/move.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/outerHTML.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/prepend.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/removeAttribute.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/removeChild.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/removeClass.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/replaceWith.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/setAttribute.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/html/style.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/copy.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/create.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/createComponent.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/delete.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/deleteComponent.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/getSettings.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/read.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/search.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/setSettings.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/api/storage/update.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/building-your-own-tilepieces.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/core-concepts/current-stylesheet.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/core-concepts/html-live-edit.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/core-concepts/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/data-structures/component.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/data-structures/general-settings.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/data-structures/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/data-structures/project.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/how-to/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/components.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/components/components.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/components/standard-tag.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/components/UFT8-characters.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/animations.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/background.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/border.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/css-input.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/fonts.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/how-to-insert-css-rules.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/inspector.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/layout.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/text.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/css-viewer/transform.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/element.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/element/children.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/element/component-interface.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/element/main.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/file-explorer.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/history.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/html-inspector.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/html-inspector/actions.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/component-properties.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/general-settings.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/global-components.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/local-components.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/project-settings.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/package-manager/projects.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/screen-dimensions.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/dialog.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/element-selector.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/frame.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/index.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/navigation-menu.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/panels.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/UI/text-editor.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/using-tilepieces-with-browser-developer-tools.html"</loc>
-   <lastmod>25/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/create-project-with-html.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/create-reuse-component.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/customize-build-tilepieces.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/edit-html-structure.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/edit-html-text-media.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/how-to/edit-style.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/html-visual-edit.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/index.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
   <url>
    <loc>https://tilepieces.net/tutorials.html"</loc>
-   <lastmod>24/3/2022</lastmod>
   </url>
 </urlset>
