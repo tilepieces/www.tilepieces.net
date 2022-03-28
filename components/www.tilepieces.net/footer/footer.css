@@ -13,3 +13,4 @@ footer div:nth-child(2) a, footer div:nth-child(3) a { color: rgb(73, 80, 87); t
 footer div:nth-child(1) a img { vertical-align: middle; }
 footer div:nth-child(1) a:hover, footer div:nth-child(2) a:hover, footer div:nth-child(3) a:hover { color: blue; }
 footer div:nth-child(1) a.social-link { margin: 0px 2%; }
+footer li a::first-letter { text-transform: uppercase; }

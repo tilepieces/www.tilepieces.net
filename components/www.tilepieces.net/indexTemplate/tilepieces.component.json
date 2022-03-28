@@ -6,7 +6,7 @@
   "website": "",
   "repository": "",
   "html": "",
-  "addDependenciesToBundles": true,
+  "addDependenciesToBundles": false,
   "bundle": {
     "stylesheet": {
       "href": "indexTemplate.css"
@@ -21,7 +21,7 @@
   },
   "sources": {
     "stylesheets": [
-      "placeholder"
+      "style.css"
     ],
     "scripts": [
       "placeholder"
