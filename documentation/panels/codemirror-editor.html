@@ -1,29 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>Tilepieces documentation | UI</title><meta name="description" content="List of all graphic elements that define the app user interface"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link href="/components/documentation/bundle/documentation.css" rel="stylesheet" data-tilepieces-component="documentation/bundle">
+<html lang="en"><head><meta charset="UTF-8"><title>Tilepieces documentation | panels · codemirror-editor</title><meta name="description" content="An introduction to tilepieces documentation pages."><meta name="viewport" content="width=device-width,initial-scale=1.0"><link href="/components/documentation/bundle/documentation.css" rel="stylesheet" data-tilepieces-component="documentation/bundle">
   <link rel="icon" href="/tp-favi.png">
-  <link rel="apple-touch-icon" href="/tp-favi-180.png"><style data-tilepieces-current-stylesheet="">figure { position: relative; }
-figure div { position: absolute; border: 3px solid; }
-figure div.document-title { top: 4%; width: 28%; height: 3.1%; left: 6.6%; }
-figure div.document-url { left: 22%; height: 3.3%; width: 77%; top: 11.7%; }
-figure div.menu-trigger { top: 20%; left: 2%; width: 5%; height: 7%; }
-figure div.DOM-selector { top: 20%; left: 11.5%; width: 5%; height: 7%; }
-figure div.text-edit { left: 20.8%; top: 20%; width: 5%; height: 7%; }
-figure div.screen-dimensions { top: 25%; left: 21%; width: 5%; height: 13%; }
-figure div > div { position: absolute; border-color: red; background: white; display: none; padding: 5px; }
-figure div:focus-within > div { display: block; }
-figure div.document-title > div { width: 414px; background: white; top: 100%; }
-figure div.document-url > div { width: 400px; left: 0px; top: 100%; }
-figure div.menu-trigger > div { top: calc(100% + 6px); width: 400%; }
-figure div.DOM-selector > div { top: calc(100% + 6px); width: 400%; }
-figure div.text-edit > div { top: calc(100% + 6px); width: 500%; }
-figure div.screen-dimensions > div { top: calc(100% + 6px); width: 400%; }
-figure div.frame { width: 100%; top: 30%; height: 70%; }
-figure div:focus-within { z-index: 2; }
-figure.info-pop .info { top: 25%; left: 28%; width: 5%; height: 13%; }
-figure.info-pop div.info > div { width: 400%; }
-figure.info-pop div.frame > div { width: 80%; }
-figure.info-pop div.document-url > div { width: 100%; }
-figure.info-pop div.document-title > div { width: 200%; }</style><style></style></head><body><section class="documentation"><nav data-tilepieces-component="documentation/documentation-nav" class="tilepieces-documentation-nav"><a href="/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <link rel="apple-touch-icon" href="/tp-favi-180.png"><style data-tilepieces-current-stylesheet="">figure div.width { top: 67px; left: 129px; width: 177px; height: 27px; }
+figure div.height { top: 67px; left: 444px; width: 182px; height: 27px; }
+figure div.fit-to-screen { top: 69px; left: 648px; width: 89px; height: 23px; }
+figure div.reverse { top: 69px; left: 742px; width: 60px; height: 23px; }
+figure div.preset-dimensions { top: 69px; left: 811px; width: 95px; height: 23px; }
+figure div.frame { left: 0px; width: 507px; height: 86%; top: 24px; }</style></head><body><section class="documentation"><nav data-tilepieces-component="documentation/documentation-nav" class="tilepieces-documentation-nav"><a href="/" class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
                 <g>
                     <polygon style="fill:#000;" points="97.1,2.8 35.3,2.8 35.3,2.8 2.7,2.8 2.7,2.8 2.7,2.8 2.7,17.2 97.1,17.2 	"></polygon>
                     <rect x="47.3" y="74" style="fill:#000;" width="49.9" height="23.3"></rect>
@@ -45,7 +28,7 @@ figure.info-pop div.document-title > div { width: 200%; }</style><style></style>
     <summary><a href="/documentation/core-concepts/index.html">core concepts</a></summary><ol>
         <li><span class="ol-counter">2.1</span><a href="/documentation/core-concepts/html-live-edit.html">html live edit</a></li><li><span class="ol-counter">2.2</span><a href="/documentation/core-concepts/current-stylesheet.html">current stylesheet<br></a></li>
     </ol>
-  </details></li><li class="select"><span class="ol-counter">3</span>
+  </details></li><li><span class="ol-counter">3</span>
   <details>
     <summary><a href="/documentation/UI/index.html">UI</a></summary><ol>
         <li><span class="ol-counter">3.1</span><a href="/documentation/UI/navigation-menu.html">Navigation menu</a></li><li><span class="ol-counter">3.2</span><a href="/documentation/UI/element-selector.html">Element selector</a></li><li><span class="ol-counter">3.3</span><a href="/documentation/UI/text-editor.html">Text Editor</a></li><li><span class="ol-counter">3.4</span><a href="/documentation/UI/frame.html">Frame</a></li><li><span class="ol-counter">3.5</span><a href="/documentation/UI/panels.html">Panels<br></a></li><li><span class="ol-counter">3.6</span><a href="/documentation/UI/dialog.html">dialog</a></li>
@@ -54,7 +37,7 @@ figure.info-pop div.document-title > div { width: 200%; }</style><style></style>
 
     
 </li><li><span class="ol-counter">4</span>
-  <details>
+  <details open="">
     <summary><a href="/documentation/panels/index.html">Panels</a></summary><ol class="">
         <li><span class="ol-counter">4.1</span>
   
@@ -121,7 +104,7 @@ figure.info-pop div.document-title > div { width: 200%; }</style><style></style>
     </ol>
   </details>
   </li><li><span class="ol-counter">4.7</span><a href="/documentation/panels/history.html">History</a></li>
-    <li><span class="ol-counter">4.8</span><a href="/documentation/panels/screen-dimensions.html">Screen dimensions</a></li><li><span class="ol-counter">4.9</span><a href="/documentation/panels/codemirror-editor.html">Codemirror editor</a></li><li><span class="ol-counter">4.10</span><a href="/documentation/panels/colorpicker.html">Colorpicker</a></li></ol>
+    <li><span class="ol-counter">4.8</span><a href="/documentation/panels/screen-dimensions.html">Screen dimensions</a></li><li class="select"><span class="ol-counter">4.9</span><a href="/documentation/panels/codemirror-editor.html">Codemirror editor</a></li><li><span class="ol-counter">4.10</span><a href="/documentation/panels/colorpicker.html">Colorpicker</a></li></ol>
   </details>
 </li><li><span class="ol-counter">5</span>
   <details>
@@ -173,11 +156,13 @@ figure.info-pop div.document-title > div { width: 200%; }</style><style></style>
 
   
 </li><li><span class="ol-counter">7</span><a href="/documentation/using-tilepieces-with-browser-developer-tools.html">using tilepieces with browser developer tools</a></li></ol>
-</section></nav><main><h1>UI</h1><div class="video-content"><iframe src="https://www.youtube.com/embed/AKyPv7jiUgQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div><p><b>Click on the boxes for more information</b></p><figure class="info-pop"><picture><source srcset="/documentation/images/AVIF/UI.avif" type="image/avif">
-<source srcset="/documentation/images/WEBP/UI.webp" type="image/webp">
-<img src="/documentation/images/JPG/UI.jpg"></picture><div class="document-title" tabindex="1"><div style="">
- <b>Document title</b> is composed by: [PROJECT NAME] - /[CURRENT DOCUMENT PATH(if any)] - WEBTILE  </div></div><div class="document-url" tabindex="1"><div style=""><b>Application entry point.</b> It is composed by: 127.0.0.1:[PORT (could be defined in settings.json)]/[applicationName]/index.html.&nbsp;<br>Additional query parameters are:<br><b>project -&gt; </b>current project<br><b>path -&gt; </b>last html edited path<br>modify these parameters to navigate within your projects</div></div><div class="menu-trigger" tabindex="1"><div style=""><a href="navigation-menu.html"><b>Navigation menu</b></a></div></div><div class="DOM-selector" tabindex="1"><div><a href="element-selector.html"><b>element&nbsp;selector</b></a></div></div><div class="text-edit" tabindex="1"><div><a href="text-editor.html"><b>Text Editor</b></a></div></div><div class="screen-dimensions" tabindex="1"><div>Reload the current page</div></div><div class="info" tabindex="1"><div>display an info popup</div></div><div class="frame" tabindex="1"><div style=""><a href="/documentation/UI/frame.html"><b>Frame</b></a></div></div></figure><div class="empty-space"></div>
+</section></nav><main><h2>
+  UI
+</h2><h1>Codemirror editor</h1><div><p>It's a <a href="/documentation/ui/panels.html#blocking-panels">blocking</a> panel.<br>
+It takes advantage of the open source codemirror project, which is a specialized text editor for editing code.<br>
+This UI is opened to modify the code of the main web standards (html, css, javascript).</p>
 
+<p>For example, it is called when editing <a href="http://127.0.0.1:8546/www/documentation/documentation/panels/html-inspector/actions.html#edit-inner-html">innerHTML </a>and <a href="http://127.0.0.1:8546/www/documentation/documentation/panels/html-inspector/actions.html#edit-outer-html">outerHTML </a>from the HTML Inspector panel.</p>
 
-
-</main></section><script src="/components/documentation/bundle/documentation.js" data-tilepieces-component="documentation/bundle"></script></body></html>
+<p>Codemirror has installed all the <a href="https://codemirror.net/demo/search.html">search addons</a>.</p>
+</div></main></section><script src="/components/documentation/bundle/documentation.js" data-tilepieces-component="documentation/bundle"></script></body></html>
