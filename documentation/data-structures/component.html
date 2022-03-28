@@ -13,7 +13,7 @@
   
 
 	
-<a href="#navigation-index" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" id="navigation-trigger">Menu</a><div class="version">Tilepieces documentation version 0.0.1</div><section id="navigation-index">
+<a href="#navigation-index" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation" id="navigation-trigger">Menu</a><div class="version">Tilepieces documentation version 0.1.x</div><section id="navigation-index">
     <ol class="">
         <li><span class="ol-counter">1</span><a href="/documentation/index.html">Introduction<br></a></li><li><span class="ol-counter">2</span>
   
@@ -69,19 +69,16 @@
   </summary>
   <ol>
     <li>
-    <span class="ol-counter">4.5.1
-      </span>
+    <span class="ol-counter">4.5.1</span>
       <a href="/documentation/panels/components/standard-tag.html">Standard Tag</a>
     </li>
   
   <li>
-    <span class="ol-counter">4.5.2
-      </span>
+    <span class="ol-counter">4.5.2</span>
       <a href="/documentation/panels/components/components.html">Components</a>
     </li>
    <li>
-    <span class="ol-counter">4.5.3
-      </span>
+    <span class="ol-counter">4.5.3</span>
       <a href="/documentation/panels/components/UFT8-characters.html">UFT8 Characters</a>
     </li>
     
@@ -93,17 +90,11 @@
     <a href="/documentation/panels/element.html">Element</a>
     </summary>
     <ol>
-      <li><span class="ol-counter">4.6.1
-        
-        </span><a href="/documentation/panels/element/main.html">Main</a>
+      <li><span class="ol-counter">4.6.1</span><a href="/documentation/panels/element/main.html">Main</a>
       </li>
-      <li><span class="ol-counter">4.6.2
-        
-        </span><a href="/documentation/panels/element/children.html">Children</a>
+      <li><span class="ol-counter">4.6.2</span><a href="/documentation/panels/element/children.html">Children</a>
       </li>
-       <li><span class="ol-counter">4.6.3
-        
-        </span><a href="/documentation/panels/element/component-interface.html">Component Interface</a>
+       <li><span class="ol-counter">4.6.3</span><a href="/documentation/panels/element/component-interface.html">Component Interface</a>
       </li>
     </ol>
   </details>
@@ -159,7 +150,7 @@
   
 
   
-</li><li><span class="ol-counter">7</span><a href="/documentation/building-your-own-tilepieces.html">Customizing and building Tilepieces</a></li><li><span class="ol-counter">8</span><a href="/documentation/using-tilepieces-with-browser-developer-tools.html">using tilepieces with browser developer tools</a></li></ol>
+</li><li><span class="ol-counter">7</span><a href="/documentation/using-tilepieces-with-browser-developer-tools.html">using tilepieces with browser developer tools</a></li></ol>
 </section></nav><main><h2>
   Data Structures
 </h2><h1> Component</h1><article><article>This data structure is used to import HTML, CSS and JAVASCRIPT into documents and the files used by them.<br>They fall into two categories: local and global.<br>To be used within a project, they must be imported as local components.<br>This can be done using the upload button inside the <a href="/documentation/panels/package-manager/local-components.html">local components</a> tab in the <a href="/documentation/panels/package-manager.html">package manager panel</a>, imported from the <a href="/documentation/panels/package-manager/global-components.html#add-global-component">global components</a> tab using the + button, or written directly in the project.<br>A project can be declared as a component by going to the <a href="/documentation/panels/package-manager/component-properties.html">component properties</a> tab and pressing the <a href="/documentation/panels/package-manager/component-properties.html#create">Create </a>button (it will thus become a global component).<br>The properties of a component are written in the file "tilepieces.component.json" present in the path associated with it.<br>These properties are divided into two: "metadata" and "properties".<div>While the former describe the component, the latter are those used to insert the component inside a component or define its sub-components.</div>Below is a list of properties that can be associated with it:<h2 id="name">Name</h2><div>The name of the component.</div><h2 id="description">Description</h2><div>The description of the component.<br></div><h2 id="version">version</h2><div>The version of the component.</div><h2 id="author">author</h2><div>The author of the component.</div><h2 id="website">website</h2><div>The website of the component.</div><h2 id="repository">repository</h2><div>Where is the source code contained.</div><h2 id="html">html</h2><div>It is the path of the file that contains the HTML code that will be inserted into the document. The path is relative to the folder where the "tilepieces.component.json" file is contained. This file will be included when you import or export the component.&nbsp;</div><h2 id="adddependenciestobundles">addDependenciesToBundles</h2><div><div>It is a boolean value that indicates to add dependency files when concatenating or minifying the css and javascript bundles.</div><div>When this value is true, dependencies css and js files will not be imported into the current document.</div></div><h2 id="bundle">bundle</h2><div>It's a Javascript object where the CSS and Javascript files of the component are indicated.<br>File paths indicated here will be included when you import or export the component.&nbsp;<br><strong>A component can import only one CSS resource and only one Javascript resource. </strong>If you want to use multiple files, concatenate them (you can do this from the package manager) or use multiple components or subcomponents.You can also use techniques like @import for css and import for javascript. In this case, remember to report the resources used in the miscellaneous files.<b></b><br>Keys are the following:</div><div style="padding-left:1em"><h3>stylesheet</h3><div>It is a javascript object made up of attribute - value pairs that represent the attributes of a link tag.&nbsp;<br>The path is relative to the folder where the "tilepieces.component.json" file is contained.<br>The attribute "rel" is always overidden with "stylesheet". <br>JSON Example:<pre><code>{

@@ -22,10 +22,13 @@ main { width: 70%; padding: 1em; background-color: rgb(245, 245, 245); }
   main .flex-content img { max-width: 100% !important; }
   div.flex-content { flex-direction: column; }
   html { background-color: rgb(245, 245, 245); }
+  .flex-content picture { position: static !important; }
 }
 @media screen and (min-width: 1024px) {
   section.documentation { flex-direction: row; }
   div.flex-content { flex-direction: row; }
+  .flex-content div { width: 50%; }
+  .flex-content picture { width: 50%; }
 }
 #navigation-index { }
 a { color: rgb(152, 130, 222); text-decoration: none; }
@@ -69,7 +72,7 @@ main ul { list-style: none; }
 main ul li::before { content: "• "; color: rgb(163, 152, 198); font-size: 30px; line-height: normal; position: absolute; margin-left: -15px; margin-top: 0px; }
 main h4 { color: rgb(163, 152, 198); }
 div.flex-content { display: flex; place-content: flex-start; align-items: center; margin-bottom: 2em; }
-main .flex-content img { width: auto; max-width: 50%; height: auto; }
+main .flex-content img { width: auto; height: auto; }
 h2:target { color: rgb(163, 152, 198) !important; }
 h2:target::before { content: ""; height: 4px; position: absolute; background-color: rgb(163, 152, 198); border-radius: 7px; width: 100%; bottom: -10px; }
 div.empty-space { padding: 30px; }
@@ -80,7 +83,6 @@ figure.info-pop div.text-edit { top: 25%; left: 14%; height: 13%; }
 figure.info-pop div.screen-dimensions { top: 25%; left: 21%; height: 13%; }
 main > h2 { color: rgb(163, 152, 198); font-size: 1em; margin-bottom: 0px; line-height: normal; margin-top: 0px; text-transform: uppercase; }
 div.flex-content.sticky-content { align-items: flex-start; }
-main .flex-content.sticky-content img { position: sticky; top: 10px; }
 h2 { line-height: normal; position: relative; }
 .info-pop a.info-pop-link { width: 25%; height: 5%; border: none; }
 .info-pop a#fi-create-file-link { left: 32%; top: 20%; }
@@ -152,3 +154,4 @@ figure.info-pop #css-inspector-add-properties-link { top: 43.5%; width: 8%; righ
 figure.info-pop #css-inspector-style-name-link { top: 33.5%; width: 14%; right: 0.5%; }
 dt { font-weight: bold; }
 header.header-top { position: relative !important; }
+.flex-content picture { position: sticky; top: 0px; display: block; }
