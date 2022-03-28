@@ -10,10 +10,11 @@
       "path": "/components/documentation"
     }
   },
-  "lastFileOpened": "/components/www.tilepieces.net/footer/footer.html",
-  "sandboxFrame": true,
+  "lastFileOpened": "/how-to/create-project-with-html.html",
+  "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
-    "element-panel"
+    "project-explorer",
+    "html-inspector"
   ]
 }
