@@ -190,10 +190,13 @@
    <loc>https://tilepieces.net/documentation/data-structures/project.html"</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/how-to/index.html"</loc>
+   <loc>https://tilepieces.net/documentation/index.html"</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/index.html"</loc>
+   <loc>https://tilepieces.net/documentation/panels/codemirror-editor.html"</loc>
+  </url>
+  <url>
+   <loc>https://tilepieces.net/documentation/panels/colorpicker.html"</loc>
   </url>
   <url>
    <loc>https://tilepieces.net/documentation/panels/components.html"</loc>
