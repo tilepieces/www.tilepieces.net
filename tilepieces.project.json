@@ -10,11 +10,24 @@
       "path": "/components/documentation"
     }
   },
-  "lastFileOpened": "/how-to/create-project-with-html.html",
-  "sandboxFrame": false,
+  "files": [
+    "components",
+    "documentation",
+    "how-to",
+    "miscellaneous",
+    "applications.html",
+    "components.html",
+    "css-live-update.html",
+    "html-visual-edit.html",
+    "index.html",
+    "tutorials.html",
+    "tp-favi.png",
+    "tp-favi-180.png"
+  ],
+  "lastFileOpened": "/index.html",
+  "sandboxFrame": true,
   "openedPanels": [
     "package-manager",
-    "project-explorer",
-    "html-inspector"
+    "project-explorer"
   ]
 }
