@@ -28,3 +28,4 @@ header.header-top nav.menu-nav-mobile { display: none; }
 header.header-top details ol { list-style: none; padding: 0px; }
 header.header-top details summary { list-style: none; }
 header.header-top .menu-nav details ol a { font-size: 0.7em; }
+header.header-top a { display: block; }

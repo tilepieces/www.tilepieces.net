@@ -9,17 +9,16 @@ h1 { font-size: 70px; color: rgb(249, 249, 249); text-shadow: rgba(0, 0, 0, 0.27
 div.tilepieces-title { width: 30%; margin-bottom: 0em; padding: 5%; }
 .tilepieces-title h1 { margin: 0px; padding: 0px; font-family: Montserrat, sans-serif; }
 .tilepieces-title p { font-size: 20px; letter-spacing: 2px; margin: 0px 0px 15px; color: rgb(51, 51, 51); }
-button.rounded-border { border: none; border-radius: 100px; padding: 1em 2em; margin-top: 1em; }
-button a { letter-spacing: 4px; font-weight: bold; color: rgb(100, 48, 214); font-family: Montserrat, sans-serif; text-transform: uppercase; }
-a { text-decoration: none; font-size: 16px; }
+a.rounded-border { border: none; border-radius: 100px; padding: 1em 2em; margin-top: 1em; letter-spacing: 4px; font-weight: bold; color: rgb(100, 48, 214); font-family: Montserrat, sans-serif; text-transform: uppercase; display:inline-block}
+a { text-decoration: none; font-size: 1em; }
 p { font-family: "Open Sans", sans-serif; }
 .row-reverse.text-video .container-flex { flex-direction: row-reverse; }
 h2 { margin: 0px; padding: 0px; font-family: Montserrat, sans-serif; font-size: 45px; line-height: normal; color: rgb(40, 152, 184); font-weight: 700; }
 #home-hero .tilepieces-title p { color: rgb(255, 255, 255); }
 #home-hero .rounded-border { background-color: rgb(255, 255, 255); }
-.text-video button.rounded-border { background-color: rgb(40, 152, 184); }
-.text-video button a { color: rgb(255, 255, 255); }
-#home-hero.text-video button a { color: rgb(100, 48, 214); }
+.text-video a.rounded-border { background-color: rgb(40, 152, 184); }
+.text-video a { color: rgb(255, 255, 255); }
+#home-hero.text-video a { color: rgb(100, 48, 214); }
 section.text-video { margin-bottom: 0em; }
 #first-section .video-content { }
 .text-video.grey-bg { background-color: rgb(242, 242, 242); }
@@ -42,9 +41,9 @@ footer { padding: 1em; background-color: rgb(242, 242, 242); }
 .text-img p { color: rgb(255, 255, 255); }
 .text-img div.tilepieces-title { width: 100%; }
 #first-section h2 { color: rgb(149, 187, 98); }
-#first-section.text-video button.rounded-border { background-color: rgb(149, 187, 98); }
+#first-section.text-video a.rounded-border { background-color: rgb(149, 187, 98); }
 #third-section h2 { color: rgb(115, 68, 224); }
-#third-section.text-video button.rounded-border { background-color: rgb(115, 68, 224); }
+#third-section.text-video a.rounded-border { background-color: rgb(115, 68, 224); }
 @media screen and (max-width: 1500px) {
   .tilepieces-title h1 { font-size: 50px; }
 }
@@ -55,3 +54,4 @@ main.container.internal-page { font: 1.2em / 1.5 "Open Sans", sans-serif; }
 html { height: 100%; }
 main.container.internal-page a { font-size: 1em; }
 main.container.internal-page .video-content { width: 100%; margin: 1em 0px; }
+#fourth-section a.rounded-border { background-color: #fff; }
