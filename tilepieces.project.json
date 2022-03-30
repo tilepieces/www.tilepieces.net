@@ -24,13 +24,13 @@
     "tp-favi.png",
     "tp-favi-180.png"
   ],
-  "lastFileOpened": "/index.html",
+  "lastFileOpened": "/components/www.tilepieces.net/header/header.html",
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
     "project-explorer",
     "html-inspector",
-    "component-panel",
+    "css-viewer",
     "screen-dimensions"
   ]
 }
