@@ -4,7 +4,7 @@ footer div:nth-child(2) { grid-area: list1 / list1 / list1 / list1; }
 footer div:nth-child(3) { grid-area: list2 / list2 / list2 / list2; }
 footer div:nth-child(4) { grid-area: list3 / list3 / list3 / list3; }
 @media screen and (min-width: 1024px) {
-  footer { grid-template-areas: "footerheader list1 list2 list3"; place-items: center; }
+  footer { grid-template-areas: "footerheader list1 list2"; place-items: center; }
 }
 footer img { width: 48px; }
 footer div:nth-child(1) a { display: inline-block; color: rgb(108, 117, 125); text-decoration: none; }
@@ -12,5 +12,7 @@ footer ul { list-style: none; padding: 0px; }
 footer div:nth-child(2) a, footer div:nth-child(3) a { color: rgb(73, 80, 87); text-decoration: none; display: block; padding: 0.7em 0px; }
 footer div:nth-child(1) a img { vertical-align: middle; }
 footer div:nth-child(1) a:hover, footer div:nth-child(2) a:hover, footer div:nth-child(3) a:hover { color: blue; }
-footer div:nth-child(1) a.social-link { margin: 0px 2%; }
+footer div:nth-child(1) a.social-link { margin: 10px 6px; }
 footer li a::first-letter { text-transform: uppercase; }
+footer div:nth-child(1) a.footer-logo { text-transform: uppercase; font-weight: 900; letter-spacing: 2px; color: rgb(51, 51, 51); display: flex; flex-direction: column; text-align: center; align-items: center; place-content: center; }
+footer .social-link img { width: 30px; }

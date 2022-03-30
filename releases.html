@@ -1,5 +1,16 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>How to create a project with an html | Tilepieces</title><meta name="description" content="In this tutorial we show how to get started with Tilepieces"><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&amp;family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link href="/components/www.tilepieces.net/template/template.css" rel="stylesheet" data-tilepieces-component="www.tilepieces.net/template"></head><body><header class="header-top" data-tilepieces-component="www.tilepieces.net/header">
+<html lang="en"><head><meta charset="UTF-8"><title>Releases | Tilepieces</title><meta name="description" content=""><meta name="viewport" content="width=device-width,initial-scale=1.0"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&amp;family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet"><link href="/components/www.tilepieces.net/template/template.css" rel="stylesheet" data-tilepieces-component="www.tilepieces.net/template"><link rel="icon" href="/tp-favi.png"><link rel="apple-touch-icon" href="/tp-favi-180.png"><style data-tilepieces-current-stylesheet="">ul.release-ul { list-style: none; margin: 0px; padding: 0px; position: relative; left: -1em; width: calc(100% + 2em); }
+.release-ul li { padding: 2em 1em; background: rgb(255, 255, 255); display: flex; place-content: center; flex-direction: row; align-items: center; column-gap: 1em; }
+.release-ul li:nth-child(2n+1) { background-color: rgb(245, 245, 245); }
+.release-ul li img { width: 100%; margin-right: 1em; max-width: 200px; }
+.release-ul li > a { width: 15%; }
+.release-ul li > div { width: 85%; flex-grow: 1; }
+@media screen and (max-width: 768px) {
+  .release-ul li { flex-direction: column; place-content: flex-start; align-items: flex-start; }
+  .release-ul li > a { width: 100%; }
+  .release-ul li img { max-width: 200px; }
+  .release-ul li > div { width: 100%; }
+}</style></head><body><header class="header-top" data-tilepieces-component="www.tilepieces.net/header">
     <div class="container-flex">
         <div><a href="/">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="50px" height="50px">
@@ -36,14 +47,25 @@
             </div>
         </nav>
     </div>
-</header><main class="container internal-page" data-tilepieces-component="www.tilepieces.net/template"><h2>How to create a project with an html</h2><div class="video-content">
+</header><main class="container internal-page" data-tilepieces-component="www.tilepieces.net/template"><h2>Releases</h2>
 
-                <iframe src="https://www.youtube.com/embed/9oA2grHN73E?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>Tilepieces is designed to integrate with any type of backend environment through the <a href="/documentation/api/storage-api/index.html">storage API</a>, which are called to read / write the files of an HTML <a href="/documentation/data-structure/project.html">project</a>.</p>
 
+<p>So we can have many applications, each of which can also be differentiated by <a href="/documentation/building-your-own-tilepieces.html">setting different panels to the default ones</a>.</p>
 
-            </div>
+<p>At the moment, these are the released applications:</p>
 
-<p>As a first step, let's start creating a project with an html file.</p><p>To do this, let's get familiar with the first two panels: <a href="/documentation/panels/package-manager.html">package manager</a> and <a href="/documentation/panels/project-explorer.html">project explorer</a>.</p><p>With the first we create a new project, while with the second we go to insert an html file called "index".<br>We are ready to start!</p>
+<ul class="release-ul">
+	<li><a><img src="/miscellaneous/PWA.svg"></a><div><a href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps">PWA</a>, accessible through&nbsp;browsers at <a href="https://pwa.tilepieces.net">https://pwa.tilepieces.net</a>. This version writes files to the browser cache.</div>
+  
+</li>
+	<li><a><img src="/miscellaneous/NODEjs.svg"></a><div><a href="https://github.com/tilepieces/tilepieces-node" target="_blank">Node.js</a>. This version reads / writes to the user's hard disk.&nbsp;
+	Use <code>npm install tilepieces -g</code>, then go to a directory where you want to install the tilepieces version, and type <code>tilepieces install</code>. If you don't want to update the application, you just need to type <code>tilepieces</code> next time.
+	Note that the same commands work the same in the folder where you install a local copy.</div>
+  
+
+	&nbsp;</li>
+</ul>
 </main><footer data-tilepieces-component="www.tilepieces.net/footer"><div><a href="/" class="footer-logo"><img src="/tp-favi-180.png" alt="tilepieces-logo">
   
 Tilepieces</a>license under <a href="https://github.com/tilepieces/tilepieces/blob/main/LICENSE" target="_blank">MIT</a><br><a href="https://github.com/tilepieces" target="_blank" class="social-link"><img src="/miscellaneous/git.svg" alt="github logo"></a><a href="https://twitter.com/tilepieces" target="_blank" class="social-link"><img src="/miscellaneous/twitter-blue.svg" alt="twitter-logo-dark"></a><a href="https://www.youtube.com/channel/UCo0SuP057lMWYzZdntwCusg" target="_blank" class="social-link"><img src="/miscellaneous/youtube.svg" alt="youtube-logo-dark"></a></div><div><p><strong>Features</strong></p>
@@ -61,4 +83,4 @@ Tilepieces</a>license under <a href="https://github.com/tilepieces/tilepieces/bl
 	
 	
 </ul>
-</div></footer><script src="/components/www.tilepieces.net/template/template" data-tilepieces-component="www.tilepieces.net/template"></script></body></html>
+</div></footer><script src="/components/www.tilepieces.net/template/template.js" data-tilepieces-component="www.tilepieces.net/template"></script></body></html>

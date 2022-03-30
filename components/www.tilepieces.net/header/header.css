@@ -2,7 +2,7 @@
 header.header-top { top: 0px; max-width: 100%; display: inline-block; width: 100%; position: sticky; padding: 0.4em; background-color: rgb(36, 193, 172); box-sizing: border-box; }
 header.header-top nav > ul { display: flex; flex-direction: row; list-style: none; align-items: center; }
 header.header-top nav > ul > li { padding: 0px 0.8em; }
-header.header-top .menu-nav a { color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 2px; font-family: Montserrat, sans-serif; font-size: 16px; text-decoration: none; display: block; }
+header.header-top .menu-nav a { color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 2px; font-family: Montserrat, sans-serif; font-size: 1em; text-decoration: none; display: block; font-weight: 700; }
 header.header-top nav.menu-nav { }
 header.header-top nav.menu-mobile > ul { flex-direction: column; }
 header.header-top nav.menu-mobile { display: none; }
