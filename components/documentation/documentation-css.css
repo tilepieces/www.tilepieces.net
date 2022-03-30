@@ -1,3 +1,5 @@
+details summary::-webkit-details-marker { display: none; }
+summary { outline: none;}
 body { font-family: sans-serif; line-height: 1.7; color: rgb(102, 102, 102); font-size: 1.2em; background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 245, 245) 50%); margin: 0px; }
 section.documentation { display: flex; }
 main img { max-width: 100%; }

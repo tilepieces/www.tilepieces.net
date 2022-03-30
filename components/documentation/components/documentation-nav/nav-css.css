@@ -4,7 +4,7 @@ a[aria-controls="navigation-index"] { width: 100%; display: block; text-align: c
   div.version { margin-inline-start: 1.3em; }
 }
 nav ol { margin: 0px; padding: 0px; list-style: none; }
-nav li { display: flex; font-size: 18px; }
+nav li { display: flex; font-size: 18px; text-align: start; }
 span.ol-counter { margin-right: 8px; color: rgb(153, 135, 213); }
 .documentation .tilepieces-documentation-nav { background-color: rgb(255, 255, 255); padding: 1em 0px !important; }
 #navigation-index { position: sticky; top: 10px; padding: 0em 1em 0px; }

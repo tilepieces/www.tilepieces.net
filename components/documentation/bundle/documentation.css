@@ -4,7 +4,7 @@ a[aria-controls="navigation-index"] { width: 100%; display: block; text-align: c
   div.version { margin-inline-start: 1.3em; }
 }
 nav ol { margin: 0px; padding: 0px; list-style: none; }
-nav li { display: flex; font-size: 18px; }
+nav li { display: flex; font-size: 18px; text-align: start; }
 span.ol-counter { margin-right: 8px; color: rgb(153, 135, 213); }
 .documentation .tilepieces-documentation-nav { background-color: rgb(255, 255, 255); padding: 1em 0px !important; }
 #navigation-index { position: sticky; top: 10px; padding: 0em 1em 0px; }
@@ -39,7 +39,9 @@ code.hljs { padding: 3px 5px; }
 .hljs-built_in, .hljs-class .hljs-title, .hljs-title.class_ { color: rgb(193, 132, 1); }
 .hljs-emphasis { font-style: italic; }
 .hljs-strong { font-weight: 700; }
-.hljs-link { text-decoration: underline; }body { font-family: sans-serif; line-height: 1.7; color: rgb(102, 102, 102); font-size: 1.2em; background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 245, 245) 50%); margin: 0px; }
+.hljs-link { text-decoration: underline; }details summary::-webkit-details-marker { display: none; }
+summary { outline: none;}
+body { font-family: sans-serif; line-height: 1.7; color: rgb(102, 102, 102); font-size: 1.2em; background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 245, 245) 50%); margin: 0px; }
 section.documentation { display: flex; }
 main img { max-width: 100%; }
 figure { width: 100%; margin: 0px; position: relative; max-width: 1366px; }
