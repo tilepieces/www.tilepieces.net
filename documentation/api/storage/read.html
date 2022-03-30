@@ -156,9 +156,8 @@
   storage API
 </h2><h1> Read</h1>
     <p>Read a file resource under as specified by&nbsp;<em>path</em>.</p><pre><code class="hljs language-javascript">
-<span class="hljs-keyword">await</span> storageInterface.<span class="hljs-title function_">update</span>(<span class="hljs-string">"index.html"</span>, <span class="hljs-keyword">new</span> <span class="hljs-title class_">Blob</span>([<span class="hljs-string">"test"</span>]));
-<span class="hljs-keyword">await</span> storageInterface.<span class="hljs-title function_">delete</span>(<span class="hljs-string">"index.html"</span>);
-<span class="hljs-comment">// logs {path:"index.html"}</span>
+ <span class="hljs-keyword">await</span> storageInterface.<span class="hljs-title function_">read</span>(<span class="hljs-string">"index.html"</span>);
+
 </code></pre>
     <h2>Parameters</h2>
     <dl>
