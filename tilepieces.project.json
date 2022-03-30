@@ -24,9 +24,12 @@
     "tp-favi.png",
     "tp-favi-180.png"
   ],
-  "lastFileOpened": "/releases.html",
-  "sandboxFrame": false,
+  "lastFileOpened": "/css-live-update.html",
+  "sandboxFrame": true,
   "openedPanels": [
-    "package-manager"
+    "package-manager",
+    "project-explorer",
+    "html-inspector",
+    "css-viewer"
   ]
 }
