@@ -36,7 +36,7 @@
   "miscellaneous": [],
   "selector": "",
   "interface": "",
-  "fixedHTML": true,
+  "fixedHTML": false,
   "parseHTML": "",
   "components": {}
 }

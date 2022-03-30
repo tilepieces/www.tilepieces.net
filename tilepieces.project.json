@@ -1,5 +1,5 @@
 {
-  "name": "www.tilepieces.net",
+  "name": "tilepieces.net",
   "components": {
     "ckeditor4-tilepieces-component": {
       "name": "ckeditor4-tilepieces-component",
@@ -24,14 +24,9 @@
     "tp-favi.png",
     "tp-favi-180.png"
   ],
-  "lastFileOpened": "/documentation/index.html",
+  "lastFileOpened": "/releases.html",
   "sandboxFrame": false,
   "openedPanels": [
-    "package-manager",
-    "project-explorer",
-    "element-panel",
-    "html-inspector",
-    "css-viewer",
-    "component-panel"
+    "package-manager"
   ]
 }
