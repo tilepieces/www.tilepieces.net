@@ -24,13 +24,15 @@
     "tp-favi.png",
     "tp-favi-180.png"
   ],
-  "lastFileOpened": "/documentation/api/storage/index.html",
+  "lastFileOpened": "/releases.html",
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
     "project-explorer",
     "element-panel",
     "html-inspector",
-    "component-panel"
+    "css-viewer",
+    "component-panel",
+    "panel-history"
   ]
 }
