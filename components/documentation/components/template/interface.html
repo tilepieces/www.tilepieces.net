@@ -16,6 +16,8 @@
 // get template document
     var fixedHTMLPath = "/components/template/template.html";
     mainDialog.open("fetching resource " + fixedHTMLPath, true);
+    var metaOgRaw = await fetch("meta og.html");
+    var metaOg = await metaOgRaw.text();
     try {
       var htmlTemplate = await app.storageInterface.read(fixedHTMLPath);
       var parser = new DOMParser();
@@ -45,8 +47,18 @@
         // description. Note how the second search for itemprop
         var description = doc.querySelector('meta[name="description"], meta[itemprop="description"]');
         var descriptionTemplate = template.querySelector('meta[name="description"]');
-        if(description && description.content)
-          descriptionTemplate.content = description.content;
+        //descriptionTemplate.content = description?.content || descriptionTemplate?.content || "";
+        //descriptionTemplate.content = description?.content || "Tilepieces documentation version 0.1.x";
+        descriptionTemplate.content = "Tilepieces documentation version 0.1.x";
+        // adding meta
+        var meta = {
+          url : htmlfilePath,
+          title : template.title,
+          description : descriptionTemplate.content
+        }
+        var html_meta_og = new Function("meta","return `"+metaOg+"`")(meta);
+        template.head.querySelectorAll("meta[property^='og:'],meta[name^='twitter:']").forEach(v=>v.remove())
+        template.head.insertAdjacentHTML("beforeend",html_meta_og)
         // main content
         var main = template.querySelector("main")
         main.innerHTML = doc.querySelector("main")?.innerHTML ||
@@ -60,7 +72,7 @@
             picture.innerHTML =
               `<source srcSet="/documentation/images/AVIF/${imgName}.avif" type="image/avif">
 <source srcSet="/documentation/images/WEBP/${imgName}.webp" type="image/webp">
-<img src="/documentation/images/JPG/${imgName}.jpg">`
+<img src="/documentation/images/JPG/${imgName}.jpg" alt="tilepieces documentation - ${imgName}">`
           }
           else{
             picture.remove();
@@ -73,7 +85,7 @@
             newPicture.innerHTML =
             `<source srcSet="/documentation/images/AVIF/${imgName}.avif" type="image/avif">
 <source srcSet="/documentation/images/WEBP/${imgName}.webp" type="image/webp">
-<img src="/documentation/images/JPG/${imgName}.jpg">`
+<img src="/documentation/images/JPG/${imgName}.jpg" alt="tilepieces documentation - ${imgName}">`
             img.replaceWith(newPicture);
           }
         })
@@ -87,7 +99,7 @@
     catch(e){
       console.error(e);
       opener.dialog.close();
-      alertDialog("error in set fixed html",true);
+      opener.alertDialog("error in set fixed html",true);
       return;
     }
     opener.dialog.open("update done");
