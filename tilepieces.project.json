@@ -28,10 +28,6 @@
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
-    "project-explorer",
-    "element-panel",
-    "html-inspector",
-    "component-panel",
-    "panel-history"
+    "html-inspector"
   ]
 }
