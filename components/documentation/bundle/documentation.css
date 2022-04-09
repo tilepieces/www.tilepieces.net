@@ -42,7 +42,7 @@ code.hljs { padding: 3px 5px; }
 .hljs-link { text-decoration: underline; }details summary::-webkit-details-marker { display: none; }
 summary { outline: none;}
 body { font-family: sans-serif; line-height: 1.7; color: rgb(102, 102, 102); font-size: 1.2em; background: linear-gradient(90deg, rgb(255, 255, 255) 50%, rgb(245, 245, 245) 50%); margin: 0px; }
-section.documentation { display: flex; }
+div.documentation { display: flex; }
 main img { max-width: 100%; }
 figure { width: 100%; margin: 0px; position: relative; max-width: 1366px; }
 figure div, figure > a { position: absolute; border: 3px solid; cursor: pointer; border-radius: 7px; }
@@ -59,7 +59,7 @@ main img.inline { width: auto; }
 .documentation nav { min-height: 100vh; }
 main { width: 70%; padding: 1em; background-color: rgb(245, 245, 245); }
 @media screen and (max-width: 1023px) {
-  section.documentation { flex-direction: column; }
+  div.documentation { flex-direction: column; }
   nav { width: 100%; top: 1px; z-index: 1; min-height: auto; max-width: 100%; margin: 0px; text-align: center; }
   main { margin: 0px auto; padding: 1em; width: 100%; box-sizing: border-box; }
   main .flex-content img { max-width: 100% !important; }
@@ -68,7 +68,7 @@ main { width: 70%; padding: 1em; background-color: rgb(245, 245, 245); }
   .flex-content picture { position: static !important; }
 }
 @media screen and (min-width: 1024px) {
-  section.documentation { flex-direction: row; }
+  div.documentation { flex-direction: row; }
   div.flex-content { flex-direction: row; }
   .flex-content div { width: 50%; }
   .flex-content picture { width: 50%; }
