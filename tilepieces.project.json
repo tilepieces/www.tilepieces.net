@@ -10,24 +10,14 @@
       "path": "/components/documentation"
     }
   },
-  "files": [
-    "components",
-    "documentation",
-    "how-to",
-    "miscellaneous",
-    "applications.html",
-    "components.html",
-    "css-live-update.html",
-    "html-visual-edit.html",
-    "index.html",
-    "tutorials.html",
-    "tp-favi.png",
-    "tp-favi-180.png"
-  ],
-  "lastFileOpened": "/tutorials.html",
+  "files": [],
+  "lastFileOpened": "/index.html",
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
-    "html-inspector"
+    "element-panel",
+    "html-inspector",
+    "css-viewer",
+    "component-panel"
   ]
 }
