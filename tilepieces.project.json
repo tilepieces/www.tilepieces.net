@@ -1,5 +1,5 @@
 {
-  "name": "www.tilepieces.net",
+  "name": "tilepieces.net",
   "components": {
     "ckeditor4-tilepieces-component": {
       "name": "ckeditor4-tilepieces-component",
@@ -15,9 +15,9 @@
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
-    "element-panel",
+    "project-explorer",
     "html-inspector",
     "css-viewer",
-    "component-panel"
+    "panel-history"
   ]
 }
