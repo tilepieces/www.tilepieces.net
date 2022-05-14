@@ -1,5 +1,5 @@
 {
-  "name": "tilepieces.net",
+  "name": "www.tilepieces.net",
   "components": {
     "ckeditor4-tilepieces-component": {
       "name": "ckeditor4-tilepieces-component",
@@ -18,6 +18,6 @@
     "project-explorer",
     "html-inspector",
     "css-viewer",
-    "panel-history"
+    "screen-dimensions"
   ]
 }
