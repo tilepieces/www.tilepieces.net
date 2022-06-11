@@ -11,11 +11,12 @@
     }
   },
   "files": [],
-  "lastFileOpened": "/index.html",
+  "lastFileOpened": "/documentation/core-concepts/current-stylesheet.html",
   "sandboxFrame": false,
   "openedPanels": [
     "package-manager",
     "project-explorer",
+    "element-panel",
     "html-inspector",
     "css-viewer",
     "screen-dimensions"
