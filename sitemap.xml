@@ -1,342 +1,342 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-   <loc>https://tilepieces.net/css-live-update.html</loc>
+   <loc>https://tilepieces.net/css-live-update/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/appendKeyframe.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/appendKeyframe/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/createCurrentStyleSheet.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/createCurrentStyleSheet/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/deleteCssRule.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/deleteCssRule/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/deleteKeyframe.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/deleteKeyframe/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/index.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/insertCssRule.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/insertCssRule/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setCss.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setCss/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setCssMedia.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setCssMedia/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setCssProperty.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setCssProperty/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setCurrentStyleSheet.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setCurrentStyleSheet/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setKeyText.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setKeyText/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setRuleName.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setRuleName/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/css/setSelectorText.html</loc>
+   <loc>https://tilepieces.net/documentation/api/css/setSelectorText/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/addClass.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/addClass/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/addColumn.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/addColumn/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/after.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/after/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/append.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/append/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/before.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/before/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/createCaption.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/createCaption/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/createTFoot.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/createTFoot/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/createTHead.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/createTHead/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteCaption.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteCaption/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteCell.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteCell/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteColumn.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteColumn/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteRow.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteRow/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteTFoot.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteTFoot/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/deleteTHead.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/deleteTHead/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/index.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/innerHTML.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/innerHTML/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/insertAdjacentElement.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/insertAdjacentElement/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/insertCell.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/insertCell/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/insertRow.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/insertRow/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/move.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/move/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/outerHTML.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/outerHTML/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/prepend.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/prepend/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/removeAttribute.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/removeAttribute/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/removeChild.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/removeChild/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/removeClass.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/removeClass/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/replaceWith.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/replaceWith/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/setAttribute.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/setAttribute/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/html/style.html</loc>
+   <loc>https://tilepieces.net/documentation/api/html/style/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/index.html</loc>
+   <loc>https://tilepieces.net/documentation/api/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/copy.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/copy/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/create.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/create/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/createComponent.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/createComponent/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/delete.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/delete/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/deleteComponent.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/deleteComponent/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/getSettings.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/getSettings/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/index.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/read.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/read/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/search.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/search/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/setSettings.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/setSettings/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/api/storage/update.html</loc>
+   <loc>https://tilepieces.net/documentation/api/storage/update/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/core-concepts/current-stylesheet.html</loc>
+   <loc>https://tilepieces.net/documentation/core-concepts/current-stylesheet/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/core-concepts/html-live-edit.html</loc>
+   <loc>https://tilepieces.net/documentation/core-concepts/html-live-edit/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/core-concepts/index.html</loc>
+   <loc>https://tilepieces.net/documentation/core-concepts/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/data-structures/component.html</loc>
+   <loc>https://tilepieces.net/documentation/data-structures/component/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/data-structures/general-settings.html</loc>
+   <loc>https://tilepieces.net/documentation/data-structures/general-settings/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/data-structures/index.html</loc>
+   <loc>https://tilepieces.net/documentation/data-structures/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/data-structures/project.html</loc>
+   <loc>https://tilepieces.net/documentation/data-structures/project/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/index.html</loc>
+   <loc>https://tilepieces.net/documentation/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/codemirror-editor.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/codemirror-editor/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/colorpicker.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/colorpicker/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/components.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/components/components/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/components/components.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/components/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/components/standard-tag.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/components/standard-tag/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/components/UFT8-characters.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/components/UFT8-characters/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/animations/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/animations.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/background/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/background.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/border/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/border.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/css-input/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/css-input.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/fonts/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/fonts.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/how-to-insert-css-rules/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/how-to-insert-css-rules.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/inspector.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/inspector/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/layout.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/layout/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/text.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/text/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/css-viewer/transform.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/css-viewer/transform/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/element.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/element/children/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/element/children.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/element/component-interface/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/element/component-interface.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/element/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/element/main.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/element/main/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/project-explorer.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/history/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/history.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/html-inspector/actions/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/html-inspector.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/html-inspector/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/html-inspector/actions.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/index.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/component-properties/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/general-settings/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/component-properties.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/global-components/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/general-settings.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/global-components.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/local-components/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/local-components.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/project-settings/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/project-settings.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/package-manager/projects/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/package-manager/projects.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/project-explorer/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/panels/screen-dimensions.html</loc>
+   <loc>https://tilepieces.net/documentation/panels/screen-dimensions/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/dialog.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/dialog/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/element-selector.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/element-selector/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/frame.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/frame/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/index.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/navigation-menu.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/navigation-menu/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/panels.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/panels/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/UI/text-editor.html</loc>
+   <loc>https://tilepieces.net/documentation/UI/text-editor/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/documentation/using-tilepieces-with-browser-developer-tools.html</loc>
+   <loc>https://tilepieces.net/documentation/using-tilepieces-with-browser-developer-tools/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/how-to/create-project-with-files.html</loc>
+   <loc>https://tilepieces.net/how-to/create-project-with-files/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/how-to/create-reuse-component.html</loc>
+   <loc>https://tilepieces.net/how-to/create-reuse-component/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/how-to/edit-html-structure.html</loc>
+   <loc>https://tilepieces.net/how-to/edit-html-structure/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/how-to/edit-html-text-media.html</loc>
+   <loc>https://tilepieces.net/how-to/edit-html-text-media/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/how-to/edit-style.html</loc>
+   <loc>https://tilepieces.net/how-to/edit-style/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/html-visual-edit.html</loc>
+   <loc>https://tilepieces.net/html-visual-edit/</loc>
   </url>
   <url>
    <loc>https://tilepieces.net/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/releases.html</loc>
+   <loc>https://tilepieces.net/releases/</loc>
   </url>
   <url>
-   <loc>https://tilepieces.net/tutorials.html</loc>
+   <loc>https://tilepieces.net/tutorials/</loc>
   </url>
 </urlset>

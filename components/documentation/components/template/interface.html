@@ -50,14 +50,15 @@
         //descriptionTemplate.content = description?.content || descriptionTemplate?.content || "";
         //descriptionTemplate.content = description?.content || "Tilepieces documentation version 0.1.x";
         descriptionTemplate.content = "Tilepieces documentation version 0.1.x";
-        // adding meta
+        // adding meta and canonical
+        var canonicalFilePath = htmlfilePath.split("/").filter((v,i,a)=>i!=a.length-1).join("/") + "/";
         var meta = {
-          url : htmlfilePath,
+          url : canonicalFilePath,
           title : template.title,
           description : descriptionTemplate.content
         }
         var html_meta_og = new Function("meta","return `"+metaOg+"`")(meta);
-        template.head.querySelectorAll("meta[property^='og:'],meta[name^='twitter:']").forEach(v=>v.remove())
+        template.head.querySelectorAll("meta[property^='og:'],meta[name^='twitter:'],link[rel='canonical']").forEach(v=>v.remove())
         template.head.insertAdjacentHTML("beforeend",html_meta_og)
         // main content
         var main = template.querySelector("main")
@@ -91,7 +92,7 @@
         })
         template.body.removeAttribute("data-tilepieces-component");
         // then save
-        var s = app.core.createDocumentText(template);
+        var s = app.core.createDocumentText(template).replace(/\r\n|\n|\r/g,"");
         mainDialog.open("update resource " + htmlfilePath, true);
         await app.storageInterface.update(htmlfilePath, new Blob([s]));
       }

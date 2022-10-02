@@ -33,7 +33,8 @@ async function setFixedHTMLInProject(component){
           !v.tagName.match(/SCRIPT|LINK|STYLE/) &&
           v.replaceWith(fragment.cloneNode(true))
         });
-        var navigationTarget = doc.querySelector("#navigation-index a[href=\"\/"+htmlfilePath+"\"]");
+        var canonicalFilePath = htmlfilePath.split("/").filter((v,i,a)=>i!=a.length-1).join("/") + "/";
+        var navigationTarget = doc.querySelector("#navigation-index a[href=\"\/"+canonicalFilePath+"\"]");
         if(navigationTarget){
           var li = navigationTarget.closest("li");
           li.className = "select";
