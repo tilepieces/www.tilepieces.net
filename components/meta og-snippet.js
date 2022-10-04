@@ -9,9 +9,9 @@
     var parser = new DOMParser();
     var doc = parser.parseFromString(htmlfile, "text/html");
     var description = doc.querySelector('meta[name="description"], meta[itemprop="description"]');
-    var canonicalFilePath = htmlfilePath.split("/").filter((v,i,a)=>i!=a.length-1).join("/") + "/";
+    var canonicalFilePath = htmlfilePath.split("/").filter((v,i,a)=>i!=a.length-1).join("/");
     var meta = {
-      url : canonicalFilePath,
+      url : canonicalFilePath ? canonicalFilePath + "/" : "",
       title : doc.title,
       description : description.content
     }
